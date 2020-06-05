@@ -14,6 +14,6 @@ public class AliveController {
 
   @RequestMapping(value = "/alive", method = RequestMethod.GET)
   public String isAlive() {
-    return "Hello from AliveController. This is alive endpoint.";
+    return "Hello from AliveController. This is updated alive endpoint.";
   }
 }
